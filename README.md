@@ -144,7 +144,7 @@ Despues de tomar el input de la letra, se define otra vaiable con el mismo valor
 letra_eval: int
 letra_eval = (input("Ingrese letra :"))
 n=letra_eval
-if ord(n)== 97 or ord(n)==101 or ord(n)==105 or ord(n)==111 or ord(n)==117:
+if ord(n)== 97 or ord(n)==101 or ord(n)==105 or ord(n)==111 or ord(n)==117 or ord(n)==65 or ord(n)==69 or ord(n)==73 or ord(n)==79 or ord(n)==85:
     print("Es vocal")
 else:
     print("Es consonante")
